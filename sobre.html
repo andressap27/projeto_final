@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sobre</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1 style="margin-left: 50px;">Blog Felino</h1>
+        </div>
+        <nav>
+            <ul style="margin-right: 50px;">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li class="dropdown">
+                    <a href="#categorias">Categorias</a>
+                    <ul class="dropdown-content">
+                        <li><a href="Saúde.html">Saúde</a></li>
+                        <li><a href="Comportamento.html">Comportamento</a></li>
+                        <li><a href="Alimentação.html">Alimentação</a></li>
+                        <li><a href="Curiosidades.html">Curiosidades</a></li>
+                    </ul>
+                </li>
+                <li><a href="sobre.html#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="banner">
+            <h2>Sobre o blog</h2>
+        </div>
+        <div class="container">
+            <br>
+            <h2>Bem-vindo ao "MiauBlog"!</h2>
+            <p>No "MiauBlog", você encontrará um universo dedicado aos nossos amigos felinos. Seja você um iniciante curioso ou um amante de longa data dos gatos, aqui você encontrará uma mistura cativante de informações, entretenimento e amor pelos felinos.</p>
+            <p>Explore nosso guia abrangente para cuidadores de gatos, onde oferecemos dicas práticas sobre alimentação, saúde e como criar um ambiente ideal para seu felino. Além disso, mergulhe fundo no fascinante mundo do comportamento felino, desvendando mistérios e compreendendo melhor os sinais que seu gato está tentando transmitir.</p>
+            <p>Então, se você é apaixonado por gatos e está em busca de um lugar para se informar, se divertir e se emocionar, junte-se a nós no "MiauBlog". Estamos aqui para celebrar e compartilhar nossa paixão pelos felinos com você. Miau! 🐾</p>
+        </div>
+    </section>
+
+    <section id="contatos">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <button id="backToTop" style="display:none;">Topo</button>
+
+    <footer>
+        <p>&copy; 2024 Blog Felino. Todos os direitos reservados.</p>
+    </footer>
+    <script src="funcoes.js"></script>
+
+</body>
+
+</html>
